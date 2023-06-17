@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="6dp"
         android:layout_marginBottom="13dp"
+        android:onClick="changeStart"
         android:text="PLAY"
         app:layout_constraintBottom_toTopOf="@+id/buttonScore"
         app:layout_constraintStart_toStartOf="@+id/buttonScore" />
@@ -32,6 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="320dp"
+        android:onClick="changeScores"
         android:text="SCORES"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,6 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="6dp"
         android:layout_marginTop="17dp"
+        android:onClick="exit"
         android:text="EXIT"
         app:layout_constraintStart_toStartOf="@+id/buttonScore"
         app:layout_constraintTop_toBottomOf="@+id/buttonScore" />
