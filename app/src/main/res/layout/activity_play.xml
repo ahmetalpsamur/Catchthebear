@@ -6,4 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".Play">
 
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addScore"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="86dp"
+        android:text="Your Score : "
+        app:layout_constraintBottom_toTopOf="@+id/textScore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="82dp"
+        android:text="score"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAdd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="17dp"
+        android:text="Apply"
+        app:layout_constraintStart_toStartOf="@+id/buttonAdd"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAdd" />
 </androidx.constraintlayout.widget.ConstraintLayout>

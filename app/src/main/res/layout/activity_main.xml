@@ -49,4 +49,22 @@
         android:text="EXIT"
         app:layout_constraintStart_toStartOf="@+id/buttonScore"
         app:layout_constraintTop_toBottomOf="@+id/buttonScore" />
+
+    <EditText
+        android:id="@+id/editYourName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="621dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
