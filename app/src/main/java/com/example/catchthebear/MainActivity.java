@@ -2,8 +2,6 @@ package com.example.catchthebear;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -12,22 +10,30 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
-    Button buttonPlay;
     ArrayList<User> userArrayList;
     EditText editYourName;
-
-
+    TextView showName;
+    Button saveButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        editYourName= findViewById(R.id.editYourName);
-        ArrayList<User> userArrayList = new ArrayList<User>();
+
     }
+
+
+
+
+
+
+
     public void changeStart(View view)
     {
         Intent intent = new Intent(MainActivity.this,Play.class);
@@ -38,10 +44,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this,Play.class);
         startActivity(intent);
     }
-    public void addUser(View view)
-    {
 
-    }
     public void exit(View view)
     {
         finish();
