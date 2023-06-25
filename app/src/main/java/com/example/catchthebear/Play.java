@@ -2,6 +2,7 @@ package com.example.catchthebear;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -63,6 +64,9 @@ public class Play extends AppCompatActivity {
         Gson gson = new Gson();
         String json = gson.toJson(userArrayList);
         sharedPreferences.edit().putString("usersData",json).apply();
+        Intent intent = new Intent(Play.this,MainActivity.class);
+
+        intent.putExtra("userArray",userArrayList);
 
 
     }

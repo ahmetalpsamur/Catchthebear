@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".Scores">
 
+    <TextView
+        android:id="@+id/textViewUsers"
+        android:layout_width="208dp"
+        android:layout_height="489dp"
+        android:layout_marginTop="101dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
