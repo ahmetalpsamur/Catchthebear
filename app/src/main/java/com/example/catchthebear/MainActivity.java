@@ -1,7 +1,9 @@
 package com.example.catchthebear;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -41,12 +43,26 @@ public class MainActivity extends AppCompatActivity {
     }
     public void changeScores(View view)
     {
-        Intent intent = new Intent(MainActivity.this,Play.class);
+        Intent intent = new Intent(MainActivity.this,Scores.class);
         startActivity(intent);
     }
 
     public void exit(View view)
     {
-        finish();
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        alert.setTitle("Exit");
+        alert.setMessage("Are you sure?");
+        alert.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finish();
+            }
+        });
+        alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                dialogInterface.cancel();
+            }
+        }).show();
     }
 }
