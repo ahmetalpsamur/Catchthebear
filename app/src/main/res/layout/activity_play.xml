@@ -6,74 +6,300 @@
     android:layout_height="match_parent"
     tools:context=".Play">
 
-    <Button
-        android:id="@+id/buttonAdd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="106dp"
-        android:onClick="addScore"
-        android:text="Add"
-        app:layout_constraintBottom_toTopOf="@+id/editYourName"
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="411dp"
+        android:layout_height="510dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textScore" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="506dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="addScore"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/bear" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutEnter"
+        android:layout_width="409dp"
+        android:layout_height="398dp"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <EditText
+            android:id="@+id/editYourName"
+            android:layout_width="260dp"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:hint="username"
+            android:inputType="text"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/showText1"
+            android:layout_width="235dp"
+            android:layout_height="41dp"
+            android:text="TextView"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/saveButton1"
+            android:layout_width="164dp"
+            android:layout_height="74dp"
+            android:onClick="showUser"
+            android:text="Apply"
+            android:visibility="visible" />
+
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="135dp"
-        android:layout_marginBottom="86dp"
-        android:text="Your Score : "
-        app:layout_constraintBottom_toTopOf="@+id/textScore"
+        android:id="@+id/textViewScore"
+        android:layout_width="268dp"
+        android:layout_height="113dp"
+        android:text="SCORE:"
+        android:textSize="34sp"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textScore"
+        android:id="@+id/textViewTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="26dp"
-        android:layout_marginBottom="48dp"
-        android:text="score"
-        app:layout_constraintBottom_toTopOf="@+id/buttonAdd"
-        app:layout_constraintStart_toStartOf="@+id/buttonAdd"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/saveButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
-        android:onClick="showUser"
-        android:text="Apply"
-        app:layout_constraintBottom_toTopOf="@+id/showText1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editYourName" />
-
-    <EditText
-        android:id="@+id/editYourName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="27dp"
-        android:ems="10"
-        android:hint="username"
-        android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/saveButton1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonAdd" />
-
-    <TextView
-        android:id="@+id/showText1"
-        android:layout_width="230dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="75dp"
-        android:layout_marginBottom="30dp"
-        android:text="TextView"
+        android:text="TIME"
+        android:textSize="34sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/saveButton1" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
